@@ -67,3 +67,11 @@
     padding-inline: 2rem;
   }
 }
+
+@utility counter-reset {
+  counter-reset: my-counter;
+}
+
+@utility counter-increment {
+  counter-increment: my-counter;
+}
