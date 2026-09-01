@@ -198,11 +198,8 @@
         </div>
       </section>
     </div>
-    <main>
-      <section
-        class="pt-16"
-        aria-labelledby="title-together"
-      >
+    <main class="grid gap-16 py-16">
+      <section aria-labelledby="title-together">
         <div class="container grid items-center gap-10 lg:grid-cols-[1fr_33.125rem] lg:gap-20">
           <div class="flex flex-col gap-6">
             <h2
@@ -252,6 +249,57 @@
                 height="638"
               />
             </picture>
+          </div>
+        </div>
+      </section>
+      <section
+        aria-labelledby="average-title"
+        aria-describedby="average-description"
+      >
+        <div class="container grid gap-10 lg:grid-cols-[1fr_35rem] lg:items-center lg:gap-20">
+          <div class="flex flex-col gap-6">
+            <h2
+              class="text-preset-2-mobile md:text-preset-2 font-semibold text-neutral-900"
+              id="average-title"
+            >
+              Not your average book
+              <span
+                class="relative before:absolute before:top-1/2 before:left-1/2 before:h-11 before:w-27.25 before:-translate-1/2 before:bg-[url('./src/assets/images/pattern-circle.png')] before:bg-cover before:bg-no-repeat md:before:h-16.25 md:before:w-40"
+                >club</span
+              >
+            </h2>
+            <p
+              class="text-preset-5 font-family-additional font-normal text-neutral-700"
+              id="average-description"
+            >
+              Connect with a community that speaks your language - from
+              <span class="font-semibold">Python</span> to
+              <span class="font-semibold">TypeScript</span> and everything in between. Our
+              discussions blend technical depth with practical applications.
+            </p>
+          </div>
+          <div
+            class="before: relative before:absolute before:right-12.5 before:bottom-12.5 before:hidden before:h-34.5 before:w-29.75 before:bg-[url('./src/assets/images/logos-tech.svg')] before:bg-cover before:bg-no-repeat md:before:block lg:before:right-[90%] lg:before:bottom-7.75"
+          >
+            <div class="overflow-hidden rounded-xl">
+              <picture>
+                <source
+                  media="(min-width: 768px)"
+                  srcset="./src/assets/images/image-not-average-desktop.webp"
+                />
+                <source
+                  media="(min-width: 768px)"
+                  srcset="./src/assets/images/image-not-average-tablet.webp"
+                />
+                <img
+                  class="h-full w-full object-cover"
+                  src="./src/assets/images/image-not-average-mobile.webp"
+                  alt=""
+                  width="686"
+                  height="638"
+                />
+              </picture>
+            </div>
           </div>
         </div>
       </section>
