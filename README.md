@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Tech Book Club Landing Page](./screenshot.jpg)
+![Tech Book Club Landing Page](./screenshot.png)
 
 ### Links
 
