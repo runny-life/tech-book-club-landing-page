@@ -34,8 +34,9 @@ Users should be able to:
 ### Links
 
 - Solution
-  URL: [GitHub Repository]([https://github.com/yourusername/tech-book-club-landing-page](https://github.com/runny-life/tech-book-club-landing-page))
-- Live Site URL: [Vercel Deployment](https://tech-book-club-landing-page.vercel.app)
+  URL: [GitHub Repository]([https://github.com/runny-life/tech-book-club-landing-page](https://github.com/runny-life/tech-book-club-landing-page))
+- Live Site
+  URL: [Vercel Deployment]([https://tech-book-club-landing-page.vercel.app](https://tech-book-club-landing-page-self.vercel.app/))
 
 ## My process
 
